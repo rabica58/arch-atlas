@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
         <Navbar />
-        <main className="min-h-screen pt-[40px]">{children}</main>
+        <main className="min-h-screen pt-[40px] overflow-hidden">{children}</main>
         <div className="mt-80">
             <Footer/>
         </div>
